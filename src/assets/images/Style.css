@@ -1,0 +1,76 @@
+<style>
+/* Custom styles for the navbar */
+.navbar {
+    height: 60px; /* Adjust the height as needed */
+    z-index: 1000;
+}
+
+.navbar-brand img {
+    max-height: 60px;
+    width: auto;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+body {
+    background: url('C:\Users\TharunKumarRaipalli\Desktop\Portfolio\Portfolio_BG Images.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    height: 400px;
+    width: 350px;
+    justify-content: center;
+    margin-top: 100px;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+    background: rgba(188, 186, 186, 0.8); /* Add a semi-transparent background for the card */
+    border-radius: 15px;
+}
+
+.header {
+    background-color: darkcyan;
+    text-emphasis-color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.card-img-top {
+    max-height: 200px;
+    width: 100%; /* Ensure the image takes the full width of the card */
+    object-fit: cover;
+}
+
+.card2,
+.card3,
+.card4 {
+    height: 400px;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+    background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background for the cards */
+    border-radius: 10px;
+}
+
+.cards-wrapper {
+  column-gap: 8px;
+}
+
+.centered-text-container{
+  background-color: aquamarine;
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  margin: 80px auto;
+  padding: 10px;
+}
+</style>
